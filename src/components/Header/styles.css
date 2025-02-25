@@ -1,0 +1,32 @@
+.header{
+  height: 100px;
+  background: #73048f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.temp-btn{
+  background: white;
+  width: 100px;
+  height: 37px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-item {
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.btn-item input{
+  margin: 0;
+}

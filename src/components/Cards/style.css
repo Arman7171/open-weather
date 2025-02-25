@@ -1,0 +1,29 @@
+.card-container{
+    border: 2px solid rgb(191, 191, 191);
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-container.active {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 -1px 11px 5px rgb(0 0 0 / 0.1);
+}
+
+.card-container:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 -1px 11px 5px rgb(0 0 0 / 0.1);
+}
+
+.card-temp-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp{
+    font-size: 20px;
+}

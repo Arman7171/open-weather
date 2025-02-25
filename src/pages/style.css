@@ -1,0 +1,5 @@
+.weather-showing-content{
+    display: flex;
+    padding: 40px 200px;
+    min-height: 500px;
+}

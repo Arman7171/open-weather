@@ -1,0 +1,33 @@
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  height: 30px;
+  width: 300px;
+  padding-left: 30px;
+  border: 1px solid transparent;
+  transition: width ease-in-out 0.3s;
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+}
+
+.input.open:focus {
+  outline: 1px solid #b8b8b8;
+}
+
+.input-search-icon {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+}
+
+.search-btn{
+  height: 37px;
+  border-radius: 5px;
+
+}
